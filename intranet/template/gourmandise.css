@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 avr. 2019, 14:38:56
+    Author     : Utilisateur
+*/
+
+/* style personnel pour gourmandise */
+
+.posIcon{
+    text-align: center;  
+    object-position: center;
+    
+}
+
+.addIcon{
+    
+    color: green;
+    align-content: right;
+}
+.svg-icon {    
+    fill: #07CA27;
+}
+
+.btn-retour{
+    color: white;
+    background-color: #FF8F00;
+}
+.btn-valider{
+    color: white;
+    background-color: #0080FF;
+}
+.btn-modifier{
+    color: white;
+    background-color: #08AD5A;
+}
+.btn-supprimer{
+    color: white;
+    background-color: #FF0000;
+}
+.btn-ajouter{
+    color: white;
+    background-color: #1DC478;
+}
+
+
+
+.btnPosR{
+    align-self: right;
+}

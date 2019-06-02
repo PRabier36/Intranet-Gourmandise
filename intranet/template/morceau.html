@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+         <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Table</a></li>
+                            <li class="active">Data table</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<td  class="posIcon">
+                                                        <form action="index.php" method="POST">                                
+                                                            <input type="hidden" name="gestion" value="client">
+                                                            <input type="hidden" name="action" value="F_consulter">
+                                                            <input type="hidden" name="id" value="{$c.Code.c}">
+                                                            <input type="image" name="F_consulter" src="template/template/build/svg/eye.svg">
+                                                        </form></td>                        
+                                                    <td  class="posIcon">
+                                                        <form action="index.php" method="POST">                                
+                                                            <input type="hidden" name="gestion" value="client">
+                                                            <input type="hidden" name="action" value="F_modifier">
+                                                            <input type="hidden" name="id" value="{$c.code.c}">
+                                                            <input type="image" name="F_modifier" src="template/template/build/svg/pencil.svg">
+                                                        </form>
+                                                    </td>                        
+                                                    <td class="posIcon">
+                                                        <form action="index.php" methode="POST">
+                                                            <input type="hidden" name="gestion" value="client">
+                                                            <input type="hidden" name="action" value="F_supprimer">
+                                                            <input type="hidden" name="id" value="{$c.code.c}">
+                                                            <input type="image" name="F_supprimer" src="template/template/build/svg/trashcan.svg">
+                                                        </form>
+                                                    </td>
+                                                    <td class="posIcon">
+                                                        <form action="index.php" methode="POST">
+                                                            <input type="hidden" name="gestion" value="client">
+                                                            <input type="hidden" name="action" value="F_commander">
+                                                            <input type="hidden" name="id" value="{$c.code.c}">
+                                                            <input type="image" name="F_commander" src="template/template/build/svg/three-bars.svg">
+                                                        </form>
+                                                    </td>
+                                                    
+                                                    
+                                                    
+                                                    <input type="hidden" name="{typeAction}" value="consulter">                                                           
+                                                            <input type="hidden" name="id" value="{$c.Code.c}">
+                                                            
+                                                            {typeAction}  
